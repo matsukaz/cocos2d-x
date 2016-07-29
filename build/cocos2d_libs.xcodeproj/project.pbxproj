@@ -1487,8 +1487,6 @@
 		503DD8E51926736A00CD74DD /* CCDirectorCaller-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503DD8D31926736A00CD74DD /* CCDirectorCaller-ios.mm */; };
 		503DD8E61926736A00CD74DD /* CCEAGLView-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 503DD8D41926736A00CD74DD /* CCEAGLView-ios.h */; };
 		503DD8E71926736A00CD74DD /* CCEAGLView-ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503DD8D51926736A00CD74DD /* CCEAGLView-ios.mm */; };
-		503DD8E81926736A00CD74DD /* CCES2Renderer-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 503DD8D61926736A00CD74DD /* CCES2Renderer-ios.h */; };
-		503DD8E91926736A00CD74DD /* CCES2Renderer-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 503DD8D71926736A00CD74DD /* CCES2Renderer-ios.m */; };
 		503DD8EA1926736A00CD74DD /* CCESRenderer-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 503DD8D81926736A00CD74DD /* CCESRenderer-ios.h */; };
 		503DD8EB1926736A00CD74DD /* CCGL-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 503DD8D91926736A00CD74DD /* CCGL-ios.h */; };
 		503DD8EC1926736A00CD74DD /* CCGLViewImpl-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 503DD8DA1926736A00CD74DD /* CCGLViewImpl-ios.h */; };
@@ -2173,7 +2171,6 @@
 		507B3C3D1C31BDD30067B53E /* btGjkEpaPenetrationDepthSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB0D41AF9AA1900B9B856 /* btGjkEpaPenetrationDepthSolver.cpp */; };
 		507B3C3E1C31BDD30067B53E /* CCPUParticleSystem3DTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B665E1921AA80A6500DDB1C5 /* CCPUParticleSystem3DTranslator.cpp */; };
 		507B3C3F1C31BDD30067B53E /* b2Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A168D01807AF9C005B8026 /* b2Draw.cpp */; };
-		507B3C401C31BDD30067B53E /* CCES2Renderer-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 503DD8D71926736A00CD74DD /* CCES2Renderer-ios.m */; };
 		507B3C411C31BDD30067B53E /* cocos2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50272539190BF1B900AAF4ED /* cocos2d.cpp */; };
 		507B3C421C31BDD30067B53E /* SkinnedMeshAttachment.c in Sources */ = {isa = PBXBuildFile; fileRef = B29A7DAA19EE1B7700872B35 /* SkinnedMeshAttachment.c */; };
 		507B3C431C31BDD30067B53E /* Bullet-C-API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6CAB1171AF9AA1900B9B856 /* Bullet-C-API.cpp */; };
@@ -3097,7 +3094,6 @@
 		507B3FDB1C31BDD30067B53E /* CCTechnique.h in Headers */ = {isa = PBXBuildFile; fileRef = 501216991AC473A3009A4BEA /* CCTechnique.h */; };
 		507B3FDC1C31BDD30067B53E /* btRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CAB1CD1AF9AA1A00B9B856 /* btRandom.h */; };
 		507B3FDD1C31BDD30067B53E /* ScrollViewReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FCEB8018C72017004AD434 /* ScrollViewReader.h */; };
-		507B3FDE1C31BDD30067B53E /* CCES2Renderer-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 503DD8D61926736A00CD74DD /* CCES2Renderer-ios.h */; };
 		507B3FDF1C31BDD30067B53E /* CCPUTextureRotator.h in Headers */ = {isa = PBXBuildFile; fileRef = B665E1E11AA80A6500DDB1C5 /* CCPUTextureRotator.h */; };
 		507B3FE01C31BDD30067B53E /* CCPUOnPositionObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = B665E1791AA80A6500DDB1C5 /* CCPUOnPositionObserver.h */; };
 		507B3FE11C31BDD30067B53E /* btMultiBodySolverConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CAB1291AF9AA1900B9B856 /* btMultiBodySolverConstraint.h */; };
@@ -5675,6 +5671,10 @@
 		D0FD035E1A3B51AA00825BB5 /* CCAllocatorStrategyGlobalSmallBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FD03451A3B51AA00825BB5 /* CCAllocatorStrategyGlobalSmallBlock.h */; };
 		D0FD035F1A3B51AA00825BB5 /* CCAllocatorStrategyPool.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FD03461A3B51AA00825BB5 /* CCAllocatorStrategyPool.h */; };
 		D0FD03601A3B51AA00825BB5 /* CCAllocatorStrategyPool.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FD03461A3B51AA00825BB5 /* CCAllocatorStrategyPool.h */; };
+		D495641C1D4B55D700784FF7 /* CCES3Renderer-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = D49564191D4B55D700784FF7 /* CCES3Renderer-ios.h */; };
+		D495641D1D4B55D700784FF7 /* CCES3Renderer-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = D49564191D4B55D700784FF7 /* CCES3Renderer-ios.h */; };
+		D495641F1D4B55D700784FF7 /* CCES3Renderer-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = D495641A1D4B55D700784FF7 /* CCES3Renderer-ios.m */; };
+		D49564201D4B55D700784FF7 /* CCES3Renderer-ios.m in Sources */ = {isa = PBXBuildFile; fileRef = D495641A1D4B55D700784FF7 /* CCES3Renderer-ios.m */; };
 		DA8C62A219E52C6400000516 /* ioapi_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8C62A019E52C6400000516 /* ioapi_mem.cpp */; };
 		DA8C62A319E52C6400000516 /* ioapi_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8C62A019E52C6400000516 /* ioapi_mem.cpp */; };
 		DA8C62A419E52C6400000516 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8C62A119E52C6400000516 /* ioapi_mem.h */; };
@@ -6466,8 +6466,6 @@
 		503DD8D31926736A00CD74DD /* CCDirectorCaller-ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CCDirectorCaller-ios.mm"; sourceTree = "<group>"; };
 		503DD8D41926736A00CD74DD /* CCEAGLView-ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCEAGLView-ios.h"; sourceTree = "<group>"; };
 		503DD8D51926736A00CD74DD /* CCEAGLView-ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CCEAGLView-ios.mm"; sourceTree = "<group>"; };
-		503DD8D61926736A00CD74DD /* CCES2Renderer-ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCES2Renderer-ios.h"; sourceTree = "<group>"; };
-		503DD8D71926736A00CD74DD /* CCES2Renderer-ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCES2Renderer-ios.m"; sourceTree = "<group>"; };
 		503DD8D81926736A00CD74DD /* CCESRenderer-ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCESRenderer-ios.h"; sourceTree = "<group>"; };
 		503DD8D91926736A00CD74DD /* CCGL-ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCGL-ios.h"; sourceTree = "<group>"; };
 		503DD8DA1926736A00CD74DD /* CCGLViewImpl-ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCGLViewImpl-ios.h"; sourceTree = "<group>"; };
@@ -7697,6 +7695,8 @@
 		D0FD03441A3B51AA00825BB5 /* CCAllocatorStrategyFixedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAllocatorStrategyFixedBlock.h; sourceTree = "<group>"; };
 		D0FD03451A3B51AA00825BB5 /* CCAllocatorStrategyGlobalSmallBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAllocatorStrategyGlobalSmallBlock.h; sourceTree = "<group>"; };
 		D0FD03461A3B51AA00825BB5 /* CCAllocatorStrategyPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAllocatorStrategyPool.h; sourceTree = "<group>"; };
+		D49564191D4B55D700784FF7 /* CCES3Renderer-ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCES3Renderer-ios.h"; sourceTree = "<group>"; };
+		D495641A1D4B55D700784FF7 /* CCES3Renderer-ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCES3Renderer-ios.m"; sourceTree = "<group>"; };
 		DA8C62A019E52C6400000516 /* ioapi_mem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ioapi_mem.cpp; sourceTree = "<group>"; };
 		DA8C62A119E52C6400000516 /* ioapi_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi_mem.h; sourceTree = "<group>"; };
 		DABC9FA719E7DFA900FA252C /* CCClippingRectangleNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCClippingRectangleNode.cpp; sourceTree = "<group>"; };
@@ -9752,9 +9752,9 @@
 				503DD8D31926736A00CD74DD /* CCDirectorCaller-ios.mm */,
 				503DD8D41926736A00CD74DD /* CCEAGLView-ios.h */,
 				503DD8D51926736A00CD74DD /* CCEAGLView-ios.mm */,
-				503DD8D61926736A00CD74DD /* CCES2Renderer-ios.h */,
-				503DD8D71926736A00CD74DD /* CCES2Renderer-ios.m */,
 				503DD8D81926736A00CD74DD /* CCESRenderer-ios.h */,
+				D49564191D4B55D700784FF7 /* CCES3Renderer-ios.h */,
+				D495641A1D4B55D700784FF7 /* CCES3Renderer-ios.m */,
 				503DD8D91926736A00CD74DD /* CCGL-ios.h */,
 				503DD8DA1926736A00CD74DD /* CCGLViewImpl-ios.h */,
 				503DD8DB1926736A00CD74DD /* CCGLViewImpl-ios.mm */,
@@ -12357,6 +12357,7 @@
 				507B3D421C31BDD30067B53E /* AtlasAttachmentLoader.h in Headers */,
 				507B3D431C31BDD30067B53E /* CCPhysicsJoint.h in Headers */,
 				507B3D441C31BDD30067B53E /* CCPUScriptParser.h in Headers */,
+				D495641D1D4B55D700784FF7 /* CCES3Renderer-ios.h in Headers */,
 				507B3D451C31BDD30067B53E /* CCPUVortexAffectorTranslator.h in Headers */,
 				507B3D461C31BDD30067B53E /* poly2tri.h in Headers */,
 				507B3D471C31BDD30067B53E /* SkinnedMeshAttachment.h in Headers */,
@@ -13048,7 +13049,6 @@
 				507B3FDB1C31BDD30067B53E /* CCTechnique.h in Headers */,
 				507B3FDC1C31BDD30067B53E /* btRandom.h in Headers */,
 				507B3FDD1C31BDD30067B53E /* ScrollViewReader.h in Headers */,
-				507B3FDE1C31BDD30067B53E /* CCES2Renderer-ios.h in Headers */,
 				507B3FDF1C31BDD30067B53E /* CCPUTextureRotator.h in Headers */,
 				507B3FE01C31BDD30067B53E /* CCPUOnPositionObserver.h in Headers */,
 				507B3FE11C31BDD30067B53E /* btMultiBodySolverConstraint.h in Headers */,
@@ -13422,6 +13422,7 @@
 				A0E749FA1BA8FD7F001A8332 /* UIEditBoxImpl-common.h in Headers */,
 				B6CAB2A61AF9AA1A00B9B856 /* btConvexHullShape.h in Headers */,
 				50ABBE861925AB6F00A911A9 /* ccFPSImages.h in Headers */,
+				D495641C1D4B55D700784FF7 /* CCES3Renderer-ios.h in Headers */,
 				B6CAB2BE1AF9AA1A00B9B856 /* btCylinderShape.h in Headers */,
 				B6CAB3F01AF9AA1A00B9B856 /* btRigidBody.h in Headers */,
 				15AE192619AAD35100C27E9E /* TriggerObj.h in Headers */,
@@ -14095,7 +14096,6 @@
 				5012169D1AC473A3009A4BEA /* CCTechnique.h in Headers */,
 				B6CAB5281AF9AA1A00B9B856 /* btRandom.h in Headers */,
 				15AE19B119AAD39700C27E9E /* ScrollViewReader.h in Headers */,
-				503DD8E81926736A00CD74DD /* CCES2Renderer-ios.h in Headers */,
 				B665E41D1AA80A6600DDB1C5 /* CCPUTextureRotator.h in Headers */,
 				B665E34D1AA80A6500DDB1C5 /* CCPUOnPositionObserver.h in Headers */,
 				B6CAB4181AF9AA1A00B9B856 /* btMultiBodySolverConstraint.h in Headers */,
@@ -15866,6 +15866,7 @@
 				507B3BD21C31BDD30067B53E /* CCConfiguration.cpp in Sources */,
 				507B3BD31C31BDD30067B53E /* b2Timer.cpp in Sources */,
 				507B3BD41C31BDD30067B53E /* b2WeldJoint.cpp in Sources */,
+				D49564201D4B55D700784FF7 /* CCES3Renderer-ios.m in Sources */,
 				507B3BD51C31BDD30067B53E /* btBox2dBox2dCollisionAlgorithm.cpp in Sources */,
 				507B3BD61C31BDD30067B53E /* CCTextFieldTTF.cpp in Sources */,
 				507B3BD71C31BDD30067B53E /* CCPhysicsSprite.cpp in Sources */,
@@ -15974,7 +15975,6 @@
 				507B3C3D1C31BDD30067B53E /* btGjkEpaPenetrationDepthSolver.cpp in Sources */,
 				507B3C3E1C31BDD30067B53E /* CCPUParticleSystem3DTranslator.cpp in Sources */,
 				507B3C3F1C31BDD30067B53E /* b2Draw.cpp in Sources */,
-				507B3C401C31BDD30067B53E /* CCES2Renderer-ios.m in Sources */,
 				507B3C411C31BDD30067B53E /* cocos2d.cpp in Sources */,
 				507B3C421C31BDD30067B53E /* SkinnedMeshAttachment.c in Sources */,
 				507B3C431C31BDD30067B53E /* Bullet-C-API.cpp in Sources */,
@@ -16306,6 +16306,7 @@
 				B29A7E1619EE1B7700872B35 /* BoundingBoxAttachment.c in Sources */,
 				B665E2131AA80A6500DDB1C5 /* CCPUBaseForceAffectorTranslator.cpp in Sources */,
 				382384081A25900F002C4610 /* FlatBuffersSerialize.cpp in Sources */,
+				D495641F1D4B55D700784FF7 /* CCES3Renderer-ios.m in Sources */,
 				B68779011A8CA82E00643ABF /* CCParticle3DRender.cpp in Sources */,
 				DABC9FAA19E7DFA900FA252C /* CCClippingRectangleNode.cpp in Sources */,
 				B665E2E71AA80A6500DDB1C5 /* CCPULinearForceAffector.cpp in Sources */,
@@ -16825,7 +16826,6 @@
 				B6CAB3781AF9AA1A00B9B856 /* btGjkEpaPenetrationDepthSolver.cpp in Sources */,
 				B665E37F1AA80A6500DDB1C5 /* CCPUParticleSystem3DTranslator.cpp in Sources */,
 				15AE1A9619AAD40300C27E9E /* b2Draw.cpp in Sources */,
-				503DD8E91926736A00CD74DD /* CCES2Renderer-ios.m in Sources */,
 				5027253D190BF1B900AAF4ED /* cocos2d.cpp in Sources */,
 				B29A7E0819EE1B7700872B35 /* SkinnedMeshAttachment.c in Sources */,
 				B6CAB3F61AF9AA1A00B9B856 /* Bullet-C-API.cpp in Sources */,

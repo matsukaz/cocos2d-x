@@ -30,17 +30,15 @@ THE SOFTWARE.
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
 
 #define glClearDepth                glClearDepthf
-#define glDeleteVertexArrays        glDeleteVertexArraysOES
-#define glGenVertexArrays           glGenVertexArraysOES
-#define glBindVertexArray           glBindVertexArrayOES
-#define glMapBuffer                 glMapBufferOES
-#define glUnmapBuffer               glUnmapBufferOES
 
-#define GL_DEPTH24_STENCIL8         GL_DEPTH24_STENCIL8_OES
 #define GL_WRITE_ONLY               GL_WRITE_ONLY_OES
 
-#include <OpenGLES/ES2/gl.h>
-#include <OpenGLES/ES2/glext.h>
+#define glDeleteVertexArraysOES        glDeleteVertexArrays
+#define glGenVertexArraysOES           glGenVertexArrays
+#define glBindVertexArrayOES           glBindVertexArray
+#define GL_DEPTH24_STENCIL8_OES        GL_DEPTH24_STENCIL8
+
+#include <OpenGLES/ES3/gl.h>
 
 #endif // CC_PLATFORM_IOS
 

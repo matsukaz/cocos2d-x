@@ -30,41 +30,30 @@ THE SOFTWARE.
 #if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
 
 #define glClearDepth                glClearDepthf
-#define glDeleteVertexArrays        glDeleteVertexArraysOES
-#define glGenVertexArrays           glGenVertexArraysOES
-#define glBindVertexArray           glBindVertexArrayOES
-#define glMapBuffer                 glMapBufferOES
-#define glUnmapBuffer               glUnmapBufferOES
-
-#define GL_DEPTH24_STENCIL8         GL_DEPTH24_STENCIL8_OES
 #define GL_WRITE_ONLY               GL_WRITE_ONLY_OES
+
+#define glDeleteVertexArraysOES        glDeleteVertexArrays
+#define glGenVertexArraysOES           glGenVertexArrays
+#define glBindVertexArrayOES           glBindVertexArray
+#define GL_DEPTH24_STENCIL8_OES        GL_DEPTH24_STENCIL8
+
+#define GL_TEXTURE_COMPARE_FUNC_EXT    GL_TEXTURE_COMPARE_FUNC
+#define GL_TEXTURE_COMPARE_MODE_EXT    GL_TEXTURE_COMPARE_MODE
+#define GL_COMPARE_REF_TO_TEXTURE_EXT  GL_COMPARE_REF_TO_TEXTURE
+#define glDrawElementsInstancedEXT     glDrawElementsInstanced
+#define glVertexAttribDivisorEXT       glVertexAttribDivisor
+#define GL_DEPTH_COMPONENT24_OES       GL_DEPTH_COMPONENT24
+
 
 // GL_GLEXT_PROTOTYPES isn't defined in glplatform.h on android ndk r7 
 // we manually define it here
-#include <GLES2/gl2platform.h>
-#ifndef GL_GLEXT_PROTOTYPES
-#define GL_GLEXT_PROTOTYPES 1
-#endif
 
 // normal process
-#include <GLES2/gl2.h>
-#include <GLES2/gl2ext.h>
-// gl2.h doesn't define GLchar on Android
-typedef char GLchar;
+#include <GLES3/gl3.h>
 // android defines GL_BGRA_EXT but not GL_BRGA
 #ifndef GL_BGRA
 #define GL_BGRA  0x80E1
 #endif
-
-//declare here while define in EGLView_android.cpp
-extern PFNGLGENVERTEXARRAYSOESPROC glGenVertexArraysOESEXT;
-extern PFNGLBINDVERTEXARRAYOESPROC glBindVertexArrayOESEXT;
-extern PFNGLDELETEVERTEXARRAYSOESPROC glDeleteVertexArraysOESEXT;
-
-#define glGenVertexArraysOES glGenVertexArraysOESEXT
-#define glBindVertexArrayOES glBindVertexArrayOESEXT
-#define glDeleteVertexArraysOES glDeleteVertexArraysOESEXT
-
 
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
 

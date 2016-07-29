@@ -33,12 +33,11 @@
 
 #import "platform/ios/CCESRenderer-ios.h"
 
-#import <OpenGLES/ES2/gl.h>
-#import <OpenGLES/ES2/glext.h>
+#import <OpenGLES/ES3/gl.h>
 
 #import "platform/CCPlatformMacros.h"
 
-@interface CCES2Renderer : NSObject <CCESRenderer>
+@interface CCES3Renderer : NSObject <CCESRenderer>
 {
     // The pixel dimensions of the CAEAGLLayer
     GLint backingWidth_;

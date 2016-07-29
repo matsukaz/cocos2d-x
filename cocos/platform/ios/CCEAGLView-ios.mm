@@ -73,7 +73,7 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 #import "base/CCTouch.h"
 #import "base/CCIMEDispatcher.h"
 #import "platform/ios/CCGLViewImpl-ios.h"
-#import "platform/ios/CCES2Renderer-ios.h"
+#import "platform/ios/CCES3Renderer-ios.h"
 #import "platform/ios/OpenGL_Internal-ios.h"
 
 //CLASS IMPLEMENTATIONS:
@@ -220,7 +220,7 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
                                     pixelformat_, kEAGLDrawablePropertyColorFormat, nil];
     
     
-    renderer_ = [[CCES2Renderer alloc] initWithDepthFormat:depthFormat_
+    renderer_ = [[CCES3Renderer alloc] initWithDepthFormat:depthFormat_
                                          withPixelFormat:[self convertPixelFormat:pixelformat_]
                                           withSharegroup:sharegroup
                                        withMultiSampling:multiSampling_

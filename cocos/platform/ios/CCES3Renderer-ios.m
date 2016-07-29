@@ -32,7 +32,7 @@
 
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
 
-#import "platform/ios/CCES2Renderer-ios.h"
+#import "platform/ios/CCES3Renderer-ios.h"
 #import "platform/CCPlatformMacros.h"
 #import "platform/ios/OpenGL_Internal-ios.h"
 
@@ -40,7 +40,7 @@
 #define NSLog(...)       do {} while (0)
 #endif
 
-@implementation CCES2Renderer
+@implementation CCES3Renderer
 
 @synthesize context=context_;
 @synthesize defaultFramebuffer=defaultFramebuffer_;
@@ -55,9 +55,9 @@
     if (self)
     {
         if( ! sharegroup )
-            context_ = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
+            context_ = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES3];
         else
-            context_ = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2 sharegroup:sharegroup];
+            context_ = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES3 sharegroup:sharegroup];
 
         if (!context_ || ![EAGLContext setCurrentContext:context_] )
         {
@@ -213,7 +213,7 @@
 
 - (void)dealloc
 {
-//    CCLOGINFO("deallocing CCES2Renderer: %p", self);
+//    CCLOGINFO("deallocing CCES3Renderer: %p", self);
 
     // Tear down GL
     if (defaultFramebuffer_) {
